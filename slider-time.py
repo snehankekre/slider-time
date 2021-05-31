@@ -2,6 +2,7 @@ import streamlit as st
 from datetime import time
 import subprocess
 
+subprocess.run(['pwd'])
 subprocess.run(['ls', '-la'])
 
 minTime = time(6,00)
