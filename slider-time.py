@@ -1,9 +1,5 @@
 import streamlit as st
 from datetime import time
-import subprocess
-
-subprocess.run(['pwd'])
-subprocess.run(['ls', '-la'])
 
 minTime = time(6,00)
 maxTime = time(23,00)
